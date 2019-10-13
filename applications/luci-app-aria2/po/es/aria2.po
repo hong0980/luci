@@ -1,9 +1,21 @@
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:296
 msgid "<abbr title=\"Local Peer Discovery\">LPD</abbr> enabled"
 msgstr ""
+"Habilitar <abbr title=\"Descubrimiento de compañeros locales\">LPD</abbr>"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:414
 msgid "Additional BT tracker"
@@ -48,7 +60,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:335
 msgid "BitTorrent listen port"
-msgstr "Lyssningsport för BitTorrent"
+msgstr "BitTorrent escucha puerto"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:189
 msgid "CA certificate"
@@ -71,11 +83,11 @@ msgstr ""
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:49
 #: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:29
 msgid "Collecting data..."
-msgstr "Samlar in data..."
+msgstr "Recolectando datos..."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:73
 msgid "Config file directory"
-msgstr "Ställ in fil-mapp"
+msgstr "Directorio de archivos de configuración"
 
 #: applications/luci-app-aria2/luasrc/controller/aria2.lua:21
 msgid "Configuration"
@@ -99,7 +111,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:87
 msgid "Debug"
-msgstr "Avlusa"
+msgstr "Depurar"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:422
 msgid ""
@@ -109,7 +121,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:440
 msgid "Disk cache"
-msgstr "Disk-cache"
+msgstr "Caché de disco"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:259
 msgid "Don't split less than 2*SIZE byte range. Possible values: 1M-1024M."
@@ -162,11 +174,11 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:58
 msgid "Enabled"
-msgstr "Aktiverad"
+msgstr "Habilitar"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:91
 msgid "Error"
-msgstr "Fel"
+msgstr "Error"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:44
 msgid "Error: Can't find aria2c in PATH, please reinstall aria2."
@@ -174,7 +186,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:482
 msgid "Extra Settings"
-msgstr "Extra inställningar"
+msgstr "Configuraciones extra"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:39
 msgid "Failed to load log data."
@@ -200,7 +212,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:348
 msgid "Follow torrent"
-msgstr "Följ torrenten"
+msgstr "Seguir torrent"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:38
 msgid "For more information, please visit: %s"
@@ -212,7 +224,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:129
 msgid "Generate Randomly"
-msgstr "Generera slumpmässigt"
+msgstr "Generar aleatoriamente"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:210
 msgid "HTTP accept gzip"
@@ -256,7 +268,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:88
 msgid "Info"
-msgstr "Info"
+msgstr "Información"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:33
 msgid "Installed web interface:"
@@ -310,7 +322,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:85
 msgid "Log level"
-msgstr "Loggnivå"
+msgstr "Nivel de registro"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:240
 msgid "Lowest speed limit"
@@ -318,11 +330,11 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:94
 msgid "Max concurrent downloads"
-msgstr "Maximalt sammanhängande nerladdningar"
+msgstr "Máximo de descargas concurrentes"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:248
 msgid "Max connection per server"
-msgstr "Max antalet anslutningar per server"
+msgstr "Máxima conexiones por servidor"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:475
 msgid "Max download limit"
@@ -330,7 +342,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:253
 msgid "Max number of split"
-msgstr "Högst antal split"
+msgstr "Número máximo de división"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:367
 msgid "Max open files"
@@ -358,11 +370,11 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:258
 msgid "Min split size"
-msgstr "Minsta split-storlek"
+msgstr "Tamaño mínimo de división"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:115
 msgid "No Authentication"
-msgstr "Ingen autentisering"
+msgstr "Sin autenticacion"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:35
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:37
@@ -375,7 +387,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:89
 msgid "Notice"
-msgstr "Avisering"
+msgstr "Aviso"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:99
 msgid "Pause"
@@ -399,7 +411,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:393
 msgid "Prefix of peer ID"
-msgstr "Peer-ID prefix"
+msgstr "Prefijo de ID de par"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:203
 msgid "Private key"
@@ -419,7 +431,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:114
 msgid "RPC authentication method"
-msgstr ""
+msgstr "Método de autenticación RPC"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:140
 msgid "RPC certificate"
@@ -427,11 +439,11 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:122
 msgid "RPC password"
-msgstr "RPC-lösenord"
+msgstr "Contraseña RPC"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:110
 msgid "RPC port"
-msgstr "RPC-port"
+msgstr "Puerto RPC"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:149
 msgid "RPC private key"
@@ -453,7 +465,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:119
 msgid "RPC username"
-msgstr "RPC-användarnamn"
+msgstr "Nombre de usuario RPC"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:51
 msgid "Refresh every 10 seconds."
@@ -480,7 +492,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:61
 msgid "Run daemon as user"
-msgstr "Kör daemonen som användare"
+msgstr "Ejecutar demonio como usuario"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:315
 msgid "Sava metadata"
@@ -664,11 +676,11 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:48
 msgid "The Aria2 service is not running."
-msgstr "Aria2-tjänsten körs inte."
+msgstr "El servicio Aria2 no se está ejecutando."
 
 #: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:47
 msgid "The Aria2 service is running."
-msgstr "Aria2-tjänsten körs."
+msgstr "El servicio Aria2 se está ejecutando."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:74
 msgid "The directory to store the config file, session file and DHT file."
@@ -699,7 +711,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:117
 msgid "Token"
-msgstr "Tecken"
+msgstr "Token"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:349
 msgid "True"
@@ -707,7 +719,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:156
 msgid "Use WebSocket"
-msgstr "Använd WebSocket"
+msgstr "Utilizar websocket"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:170
 msgid "Use a proxy server for all protocols."
@@ -755,7 +767,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:116
 msgid "Username & Password"
-msgstr "Användarnamn & Lösenord"
+msgstr "Nombre de usuario y contraseña"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:183
 msgid ""
@@ -764,7 +776,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:90
 msgid "Warn"
-msgstr "Varna"
+msgstr "Advertir"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:244
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:356
@@ -788,74 +800,117 @@ msgstr ""
 msgid "trunc"
 msgstr ""
 
+#~ msgid "\"Falloc\" is not available in all cases."
+#~ msgstr "\"Falloc\" no está disponible en todos los casos."
+
+#~ msgid "<abbr title=\"Distributed Hash Table\">DHT</abbr> enabled"
+#~ msgstr "Habilitar <abbr title=\"Tabla de hash distribuida\">DHT</abbr>"
+
+#~ msgid "Additional Bt tracker enabled"
+#~ msgstr "Habilitar Bt tracker adicional"
+
 #~ msgid "Aria2 Settings"
-#~ msgstr "Inställningar för Aria2"
+#~ msgstr "Aria2"
 
 #~ msgid "Aria2 Status"
-#~ msgstr "Status för Aria2"
+#~ msgstr "Estado de Aria2"
+
+#~ msgid ""
+#~ "Aria2 is a multi-protocol &amp; multi-source download utility, here you "
+#~ "can configure the settings."
+#~ msgstr ""
+#~ "Aria2 es una utilidad de descarga multi-fuente &amp; multiprotocolo. Aquí "
+#~ "puede configurarlo."
 
 #~ msgid "Autosave session interval"
-#~ msgstr "Autospara sessionintervall"
+#~ msgstr "Intervalo de sesión de autoguardado"
 
 #~ msgid "BitTorrent Settings"
-#~ msgstr "Inställningar för BitTorrent"
+#~ msgstr "Configuraciones de BitTorrent"
 
 #~ msgid "Default download directory"
-#~ msgstr "Standard nerladdningsmapp"
+#~ msgstr "Directorio de descarga predeterminado"
 
 #~ msgid "Enable log"
-#~ msgstr "Aktivera logg"
+#~ msgstr "Habilitar registro"
 
 #~ msgid "Falloc"
 #~ msgstr "Falloc"
 
 #~ msgid "Files and Locations"
-#~ msgstr "Filer och Platser"
+#~ msgstr "Archivos y ubicaciones"
 
 #~ msgid "General Settings"
-#~ msgstr "Generella inställningar"
+#~ msgstr "Configuraciones generales"
 
 #~ msgid "List of additional Bt tracker"
-#~ msgstr "Lista över extra Bt-tracker"
+#~ msgstr "Lista de Bt Tracker adicional"
 
 #~ msgid "List of extra settings"
-#~ msgstr "Lista över extra inställningar"
+#~ msgstr "Lista de configuraciones extra"
 
 #~ msgid "Max number of peers per torrent"
-#~ msgstr "Maximalt antalet jämlikar per torrent"
+#~ msgstr "Número máximo de pares por torrent"
 
 #~ msgid "Off"
-#~ msgstr "Av"
+#~ msgstr "Apagado"
+
+#~ msgid "Open AriaNg"
+#~ msgstr "Abrir AriaNg"
 
 #~ msgid "Open WebUI-Aria2"
-#~ msgstr "Öppna WebUI-Aria2"
+#~ msgstr "Abrir WebUI-Aria2"
 
 #~ msgid "Open YAAW"
-#~ msgstr "Öppna YAAW"
+#~ msgstr "Abrir YAAW"
+
+#~ msgid "Overall download limit"
+#~ msgstr "Límite global de descargas"
+
+#~ msgid "Overall speed limit enabled"
+#~ msgstr "Habilitar límite de velocidad total"
+
+#~ msgid "Overall upload limit"
+#~ msgstr "Límite global de carga"
+
+#~ msgid "Per task download limit"
+#~ msgstr "Límite de descarga por tarea"
+
+#~ msgid "Per task speed limit enabled"
+#~ msgstr "Habilitar límite de velocidad por tarea"
+
+#~ msgid "Per task upload limit"
+#~ msgstr "Límite de carga por tarea"
 
 #~ msgid "Prealloc"
-#~ msgstr "Prealloc"
+#~ msgstr "Preasignar"
 
 #~ msgid "Preallocation"
-#~ msgstr "Förallokering"
+#~ msgstr "Preasignación"
+
+#~ msgid "RPC Token"
+#~ msgstr "RPC Token"
 
 #~ msgid "Sec"
-#~ msgstr "Sek"
+#~ msgstr "Seg"
 
 #~ msgid "Task Settings"
-#~ msgstr "Inställningar för uppgifter"
+#~ msgstr "Configuración de tareas"
+
+#~ msgid "The default log file is /var/log/aria2.log"
+#~ msgstr "El archivo de registro predeterminado es /var/log/aria2.log"
+
+#~ msgid "Trunc"
+#~ msgstr "Truncar"
 
 #~ msgid "User agent value"
-#~ msgstr "Använd agent-värde"
+#~ msgstr "Valor de agente de usuario"
 
 #~ msgid "View Json-RPC URL"
-#~ msgstr "Visa Json-RPC URL"
+#~ msgstr "Ver la URL de Json-RPC"
 
 #~ msgid "in bytes, You can append K or M."
-#~ msgstr "i bytes, Du kan bifoga K eller M."
+#~ msgstr "en bytes, puedes añadir K o M."
 
 #~ msgid "in bytes/sec, You can append K or M."
-#~ msgstr "i bytes/sek, Du kan bifoga K eller M."
-
-#~ msgid "Log file is in the config file dir."
-#~ msgstr "Logg-filen är i konfigurationsfilens mapp."
+#~ msgstr "en bytes/seg, puedes añadir K o M."
