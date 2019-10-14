@@ -659,7 +659,10 @@
 		<tr><td width="33%"><%:Firmware Version%></td><td>
 			<%=pcdata(ver.distname)%> <%=pcdata(ver.distversion)%> /
 			<%=pcdata(ver.luciname)%> (<%=pcdata(ver.luciversion)%>) 
-		</td></tr>		
+		</td></tr>
+		<tr><td width="33%"><%:CPU Model%></td><td><%=luci.sys.exec("awk -F ': ' '/^system type|^Hardware/{print $2}' /proc/cpuinfo") or "?"%></td></tr>
+    <tr><td width="33%"><%:RAM Size%></td><td><%=luci.sys.exec("dmesg | awk -F 'Memory: |K/|K available' '/Memory:.*available/{print $3/1024}'") or "?"%>MB</td></tr>
+		<tr><td width="33%"><%:Flash Size%></td><td><%=luci.sys.exec("dmesg | awk -F '\\\\(| Kbytes' '/\\([0-9][0-9]* Kbytes\\)/{print $2/1024}'") or "?"%>MB</td></tr>
 		<tr><td width="33%"><%:Kernel Version%></td><td><%=unameinfo.release or "?"%></td></tr>
 		<tr><td width="33%"><%:Local Time%></td><td id="localtime">-</td></tr>
 		<tr><td width="33%"><%:Uptime%></td><td id="uptime">-</td></tr>
