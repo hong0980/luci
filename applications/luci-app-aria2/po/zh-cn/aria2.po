@@ -835,3 +835,19 @@ msgstr ""
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:456
 msgid "trunc"
 msgstr ""
+
+msgid "AriaNg"
+msgstr "打开AriaNg的Web管理界面"
+
+msgid "WebUI-Aria2"
+msgstr "打开WebUI-Aria2的Web管理界面"
+
+msgid ""
+msgstr ""
+
+msgid "YAAW"
+msgstr "打开YAAW的Web管理界面"
+
+msgid ""
+msgstr ""
+
