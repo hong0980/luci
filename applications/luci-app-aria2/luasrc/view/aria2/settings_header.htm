@@ -44,8 +44,8 @@ XHR.poll(5, '<%=url("admin/services/aria2/status")%>', null,
 		var tb = document.getElementById('aria2_status');
 		if (data && tb) {
 			tb.innerHTML = data.running
-				? '<font color=green><%:The Aria2 service is running.%>'
-				: '<font color=red><%:The Aria2 service is not running.%>';
+				? '<em><b><font color=green><%:The Aria2 service is running.%>'
+				: '<em><b><font color=red><%:The Aria2 service is not running.%>';
 		}
 	}
 );
