@@ -26,7 +26,7 @@ msgstr "追加的 HTTP 请求头。"
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:14
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:45
 msgid "Aria2"
-msgstr "Aria2设置"
+msgstr "Aria2"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:37
 msgid ""
