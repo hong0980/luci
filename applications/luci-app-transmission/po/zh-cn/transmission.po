@@ -20,7 +20,7 @@ msgid "Alternative download speed"
 msgstr "临时下载限速"
 
 msgid "Alternative speed enabled"
-msgstr "临时限速已启用"
+msgstr "启用临时限速"
 
 msgid "Alternative speed time begin"
 msgstr "计划限速始于"
@@ -32,7 +32,7 @@ msgid "Alternative speed time end"
 msgstr "计划限速止于"
 
 msgid "Alternative speed timing enabled"
-msgstr "计划限速已启用"
+msgstr "启用计划限速"
 
 msgid "Alternative upload speed"
 msgstr "临时上传速度"
@@ -50,7 +50,7 @@ msgid "Binding address IPv6"
 msgstr "绑定 IPv6 地址"
 
 msgid "Block list enabled"
-msgstr "阻止列表已启用"
+msgstr "启用阻止列表"
 
 msgid "Blocklist URL"
 msgstr "URL阻止清单"
@@ -65,7 +65,7 @@ msgid "Config file directory"
 msgstr "配置文件的目录"
 
 msgid "DHT enabled"
-msgstr "启用 DHT"
+msgstr "启用DHT"
 
 msgid "Debug"
 msgstr "调试"
@@ -74,7 +74,7 @@ msgid "Download directory"
 msgstr "下载目录"
 
 msgid "Download queue enabled"
-msgstr "下载队列已启用"
+msgstr "启用下载队列"
 
 msgid "Download queue size"
 msgstr "下载队列大小"
@@ -83,7 +83,7 @@ msgid "Enable watch directory"
 msgstr "启用种子轮询目录"
 
 msgid "Enabled"
-msgstr "已启用"
+msgstr "启用"
 
 msgid "Encryption"
 msgstr "加密"
@@ -113,22 +113,22 @@ msgid "Idle seeding limit"
 msgstr "空闲做种限时"
 
 msgid "Idle seeding limit enabled"
-msgstr "空闲做种时间已启用"
+msgstr "启用空闲做种时间"
 
 msgid "Incomplete directory"
 msgstr "未完成目录"
 
 msgid "Incomplete directory enabled"
-msgstr "未完成目录已启用"
+msgstr "启用临时目录"
 
 msgid "Info"
 msgstr "信息"
 
 msgid "LPD enabled"
-msgstr "LPD 已启用"
+msgstr "启用LPD"
 
 msgid "Lazy bitfield enabled"
-msgstr "位段延迟已启用"
+msgstr "迁移位段延迟"
 
 msgid "Message level"
 msgstr "消息级别"
@@ -154,10 +154,10 @@ msgid "Open Web Interface"
 msgstr "打开 Web 管理界面"
 
 msgid "PEX enabled"
-msgstr "PEX 已启用"
+msgstr "启用PEX"
 
 msgid "Peer Port settings"
-msgstr "Peer 端口设置"
+msgstr "Peer端口设置"
 
 msgid "Peer congestion algorithm"
 msgstr "Peer 拥塞算法"
@@ -184,16 +184,16 @@ msgid "Peer socket tos"
 msgstr "Peer 套接字 tos 值"
 
 msgid "Port forwarding enabled"
-msgstr "端口转发已启用"
+msgstr "启用端口转发"
 
 msgid "Preferred"
 msgstr "优先"
 
 msgid "Prefetch enabled"
-msgstr "预取缓存已启用"
+msgstr "启用预取缓存"
 
 msgid "Queue stalled enabled"
-msgstr "队列暂停已启用"
+msgstr "启用队列暂停"
 
 msgid "Queue stalled minutes"
 msgstr "队列暂停分钟"
@@ -211,31 +211,31 @@ msgid "RPC bind address"
 msgstr "RPC 绑定地址"
 
 msgid "RPC enabled"
-msgstr "RPC 已启用"
+msgstr "启用RPC"
 
 msgid "RPC password"
-msgstr "RPC 密码"
+msgstr "RPC密码"
 
 msgid "RPC port"
-msgstr "RPC 端口"
+msgstr "RPC端口"
 
 msgid "RPC settings"
-msgstr "RPC 配置"
+msgstr "RPC配置"
 
 msgid "RPC username"
-msgstr "RPC 用户名"
+msgstr "RPC用户名"
 
 msgid "RPC whitelist"
-msgstr "RPC 白名单"
+msgstr "RPC白名单"
 
 msgid "RPC whitelist enabled"
-msgstr "RPC 白名单已启用"
+msgstr "启用RPC白名单"
 
 msgid "Ratio limit"
 msgstr "分享率限值"
 
 msgid "Ratio limit enabled"
-msgstr "分享率限制已启用"
+msgstr "启用分享率限制"
 
 msgid "Rename partial files"
 msgstr "重命名未完成文件"
@@ -247,16 +247,16 @@ msgid "Scheduling"
 msgstr "计划任务"
 
 msgid "Scrape paused torrents enabled"
-msgstr "忽略暂停种子已启用"
+msgstr "启用忽略暂停种子"
 
 msgid "Script torrent done enabled"
-msgstr "种子完成时运行脚本已启用"
+msgstr "启用种子完成时运行脚本"
 
 msgid "Script torrent done filename"
 msgstr "脚本文件名"
 
 msgid "Seed queue enabled"
-msgstr "做种队列已启用"
+msgstr "启用做种队列"
 
 msgid "Seed queue size"
 msgstr "做种队列大小"
@@ -265,13 +265,13 @@ msgid "Speed limit down"
 msgstr "下载限速"
 
 msgid "Speed limit down enabled"
-msgstr "下载限速已启用"
+msgstr "启用下载限速"
 
 msgid "Speed limit up"
 msgstr "上传限速"
 
 msgid "Speed limit up enabled"
-msgstr "上传限速已启用"
+msgstr "启用上传限速"
 
 msgid "Transmission"
 msgstr "Transmission"
@@ -297,4 +297,4 @@ msgid "preallocation"
 msgstr "磁盘预分配策略"
 
 msgid "uTP enabled"
-msgstr "uTP 已启用"
+msgstr "启用uTP"
