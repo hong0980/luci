@@ -49,7 +49,7 @@
 		local rv = {
 			uptime     = sysinfo.uptime or 0,
 			localtime  = os.date("%Y年%m月%d日") .. " " .. translate(os.date("%A")) .. " " .. os.date("%X"),
-			cpuusage   = luci.sys.exec,
+			cpuusage   = luci.sys.exec("echo -e `expr 100 - $(top -n 1 | grep 'CPU:' | awk -F '%' '{ print $4 }' | awk -F ' ' '{ print $2 }')`%") or "0%",
 			loadavg    = sysinfo.load or { 0, 0, 0 },
 			memory     = meminfo,
 			swap       = swapinfo,
@@ -608,7 +608,7 @@
 					info.loadavg[2] / 65535.0
 				);
 			if (e = document.getElementById('cpuusage'))
-				e.innerHTML = String.format('%.02f\%',info.cpuusage);
+				e.innerHTML = info.cpuusage;
 
 			if (e = document.getElementById('memtotal'))
 				e.innerHTML = progressbar(
@@ -958,17 +958,18 @@
 
    if show_disc == 1 then %>
 <div class="cbi-section">
-	<h3><%:Disks%></h3>
+	<h4><%:Disks%></h4>
         <table class="cbi-section-table" style="white-space: nowrap">
+        
                 <tr>
                         <th width="5%">&nbsp;</th>
                         <th width="30%"><%:Disks Model%></th>
                         <th width="15%"><%:Serial number%></th>
                         <th width="10%"><%:Firmware%></th>
                         <th width="10%"><%:Capacity%></th>
-                        <th width="5%"><%:Sector size%></th>
-                        <th width="5%"><%:Temperature%></th>
-                        <th width="20%"><%:Power state%></th>
+                        <th width="7%"><%:Sector size%></th>
+                        <th width="7%"><%:Temperature%></th>
+                        <th width="16%"><%:Power state%></th>
                 </tr>
 <%	local style=true
 	for d,dev in ipairs(devinfo) do %>
@@ -1000,7 +1001,7 @@
 <% end
    if show_raid == 1 and #raid > 0 then %>
 <div class="cbi-section">
-	<h3><%:Raid arrays%></h3>
+	<h4><%:Raid arrays%></h4>
 	<table class="cbi-section-table" style="white-space:nowrap">
 		<tr>
 			<th width="5%">&nbsp;</th>
