@@ -15,6 +15,7 @@ if running and webinstalled then
 end
 
 m = Map("transmission", "Transmission", translate("Transmission daemon is a simple bittorrent client, here you can configure the settings.") .. button)
+m:section(SimpleSection).template="transmission/transmission_status"
 
 s=m:section(TypedSection, "transmission")
 s.addremove=false
