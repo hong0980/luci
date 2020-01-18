@@ -202,34 +202,34 @@ msgid "Queueing"
 msgstr "队列"
 
 msgid "RPC URL"
-msgstr "RPC URL"
+msgstr "WebUI URL"
 
 msgid "RPC authentication required"
-msgstr "RPC 授权验证"
+msgstr "WebUI 授权验证"
 
 msgid "RPC bind address"
-msgstr "RPC 绑定地址"
+msgstr "WebUI 绑定地址"
 
 msgid "RPC enabled"
-msgstr "启用RPC"
+msgstr "启用WebUI"
 
 msgid "RPC password"
-msgstr "RPC密码"
+msgstr "WebUI密码"
 
 msgid "RPC port"
-msgstr "RPC端口"
+msgstr "WebUI端口"
 
 msgid "RPC settings"
-msgstr "RPC配置"
+msgstr "WebUI配置"
 
 msgid "RPC username"
-msgstr "RPC用户名"
+msgstr "WebUI用户名"
 
 msgid "RPC whitelist"
-msgstr "RPC白名单"
+msgstr "WebUI白名单"
 
 msgid "RPC whitelist enabled"
-msgstr "启用RPC白名单"
+msgstr "启用WebUI白名单"
 
 msgid "Ratio limit"
 msgstr "分享率限值"
@@ -279,7 +279,7 @@ msgstr "Transmission"
 msgid ""
 "Transmission daemon is a simple bittorrent client, here you can configure "
 "the settings."
-msgstr "Transmission 是一个简单的 bittorrent 客户端，在这里您可以配置其设置。"
+msgstr "Transmission 是一个简单的 bittorrent 客户端"
 
 msgid "Trash original torrent files"
 msgstr "删除种子源文件"
