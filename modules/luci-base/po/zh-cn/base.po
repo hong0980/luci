@@ -4072,3 +4072,6 @@ msgstr "启用 256-QAM"
 
 msgid "802.11n 2.4Ghz Only"
 msgstr "只适合 802.11n 2.4Ghz"
+
+msgid "Use as Docker data (/opt/docker)"
+msgstr "作为 Docker 数据分区使用 (/opt/docker)"
