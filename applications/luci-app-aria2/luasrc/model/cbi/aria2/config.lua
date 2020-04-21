@@ -35,8 +35,7 @@ local aria2 = aria2_info()
 m = Map("aria2", "%s - %s" % { translate("Aria2"), translate("Settings") },
 "<p>%s</p><p>%s</p>" % {
 	translate("Aria2 is a lightweight multi-protocol &amp; multi-source, cross platform download utility."),
-	translatef("For more information, please visit: %s",
-		"<a href=\"https://aria2.github.io\" target=\"_blank\">https://aria2.github.io</a>")
+	translatef("")
 })
 
 if not aria2 then
@@ -484,7 +483,7 @@ s = m:section(NamedSection, "main", "aria2", translate("Extra Settings"),
 s.addremove = false
 s.anonymous = true
 
-o = s:option(DynamicList, "extra_setting", translate("Settings list"),
+o = s:option(DynamicList, "extra_settings", translate("Settings list"),
 	translate("List of extra settings. Format: option=value, eg. <code>netrc-path=/tmp/.netrc</code>."))
 o.placeholder = "option=value"
 
