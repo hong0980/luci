@@ -23,6 +23,8 @@
 		buffered = 0,
 		shared = 0
 	}
+	
+	local mem_cached = luci.sys.exec("sed -e '/^Cached: /!d; s#Cached: *##; s# kB##g' /proc/meminfo")
 
 	local swapinfo = sysinfo.swap or {
 		total = 0,
@@ -45,13 +47,16 @@
 			luci.sys.exec("sysctl net.nf_conntrack_max") or
 			luci.sys.exec("sysctl net.ipv4.netfilter.ip_conntrack_max") or
 			""):match("%d+")) or 4096
+		local user_info = luci.sys.exec("cat /proc/net/arp | grep 'br-lan' | grep '0x2' | wc -l")
 
 		local rv = {
+			userinfo    = user_info,
 			uptime     = sysinfo.uptime or 0,
 			localtime  = os.date("%Y年%m月%d日") .. " " .. translate(os.date("%A")) .. " " .. os.date("%X"),
 			cpuusage   = luci.sys.exec("echo -e `expr 100 - $(top -n 1 | grep 'CPU:' | awk -F '%' '{ print $4 }' | awk -F ' ' '{ print $2 }')`%") or "0%",
 			loadavg    = sysinfo.load or { 0, 0, 0 },
 			memory     = meminfo,
+			memcached  = mem_cached,
 			swap       = swapinfo,
 			connmax    = conn_max,
 			conncount  = conn_count,
@@ -341,7 +346,9 @@
 				{
 					var timestr;
 
-					if (info.leases[i].expires <= 0)
+					if (info.leases[i].expires === false)
+						timestr = '<em><%:unlimited%></em>';
+					else if (info.leases[i].expires <= 0)
 						timestr = '<em><%:expired%></em>';
 					else
 						timestr = String.format('%t', info.leases[i].expires);
@@ -599,6 +606,10 @@
 
 			if (e = document.getElementById('uptime'))
 				e.innerHTML = String.format('%t', info.uptime);
+				
+			if (e = document.getElementById('userinfo'))
+				e.innerHTML = info.userinfo;
+				
 
 			if (e = document.getElementById('loadavg'))
 				e.innerHTML = String.format(
@@ -717,6 +728,7 @@
 			</tr></table>
 		</td></tr>
 		<% end %>
+		<tr><td width="33%"><%:Online Users%></td><td id="userinfo">0</td></tr>
 		<tr><td width="33%"><%:Active Connections%></td><td id="conns">-</td></tr>
 	</table>
 </fieldset>
