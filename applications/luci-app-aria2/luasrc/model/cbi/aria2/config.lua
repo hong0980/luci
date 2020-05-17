@@ -65,9 +65,14 @@ for user in util.execi("cat /etc/passwd | cut -d':' -f1") do
 	o:value(user)
 end
 
-o = s:taboption("basic", Value, "dir", translate("Download directory"),
-	translate("The directory to store the downloaded file. eg. <code>/mnt/sda1</code>"))
-o.rmempty = false
+mount=t:taboption("basic",Value,"dir",translate("Download directory"),
+translate("The directory to store the downloaded file. eg. <code>/mnt/sda1</code>"))
+mount.rmempty=false
+
+for disk_mount in i.execi("mount | awk '{print $3}' | grep mnt")do
+mount:value(disk_mount)
+end
+e=t:ta
 
 o = s:taboption("basic", Value, "config_dir", translate("Config file directory"),
 	translate("The directory to store the config file, session file and DHT file."))
