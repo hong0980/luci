@@ -36,7 +36,7 @@ msgstr "Aria2 是一个轻量、多线程，跨平台的下载工具。"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:428
 msgid "Auto save interval"
-msgstr "自动保存间隔"
+msgstr "定时保存会话间隔"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:56
 msgid "Basic Options"
