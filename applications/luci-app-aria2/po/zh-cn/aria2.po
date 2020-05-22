@@ -842,11 +842,23 @@ msgstr "打开AriaNg的Web管理界面"
 msgid "WebUI-Aria2"
 msgstr "打开WebUI-Aria2的Web管理界面"
 
+msgid "YAAW"
+msgstr "打开YAAW的Web管理界面"
+
+msgid "Enable Aria2 Pro"
+msgstr "启用Aria2扩展"
+
+msgid "Aria2 Pro file"
+msgstr "Aria2扩展的目录"
+
+msgid "Use the configuration scheme of p3terx to realize the enhancement and expansion of aria2 function."
+msgstr "使用P3TERX的配置方案实现 Aria2 功能的增强和扩展。"
+
 msgid ""
 msgstr ""
 
-msgid "YAAW"
-msgstr "打开YAAW的Web管理界面"
+msgid ""
+msgstr ""
 
 msgid ""
 msgstr ""
