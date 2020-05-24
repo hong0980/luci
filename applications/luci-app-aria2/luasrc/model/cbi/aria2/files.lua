@@ -7,9 +7,13 @@ local fs   = require "nixio.fs"
 local util = require "luci.util"
 local uci  = require "luci.model.uci".cursor()
 
-local config_dir = uci:get("aria2", "main", "config_dir") or "/var/etc/aria2"
-local config_file = "%s/aria2.conf.main" % config_dir
-local session_file = "%s/aria2.session.main" % config_dir
+if uci:get("aria2", "main", "Aria2_Pro") then
+ config_dir=uci:get("aria2", "main", "Aria2_Pro")or""
+else
+ config_dir=uci:get("aria2", "main", "config_dir")or""
+end
+local config_file = "%s/aria2.conf" % config_dir
+local session_file = "%s/aria2.session" % config_dir
 local a = "/etc/config/aria2" % config_dir
 
 m = SimpleForm("aria2", "%s - %s" % { translate("Aria2"), translate("Files") },

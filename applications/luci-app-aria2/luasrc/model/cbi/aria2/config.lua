@@ -63,7 +63,7 @@ e.rmempty=false
 e=t:taboption("basic",Value,"Aria2_Pro",translate("Aria2 Pro file"),
 translate("Use the configuration scheme of p3terx to realize the enhancement and expansion of aria2 function."))
 e:depends("enable_Aria2_Pro","1")
-e.placeholder="/usr/share/aria2"
+e.default="/usr/share/aria2"
 e=t:taboption("basic",Flag,"enable_logging",translate("Enable logging"))
 e.rmempty=false
 e=t:taboption("basic",Value,"log",translate("Log file"),

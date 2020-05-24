@@ -54,7 +54,7 @@ function action_log_read()
 		data.log = util.trim(sys.exec("tail -n 50 %s | sed 'x;1!H;$!d;x'" % log_file))
 	end
 
-	data.syslog = util.trim(sys.exec("logread | grep aria2 | tail -n 50 | cut -d' ' -f3- | sed 's/daemon.info /日志信息/g'"))
+	data.syslog = util.trim(sys.exec("logread | grep aria2 | tail -n 50 | cut -d' ' -f3- | sed 's/daemon.info.aria2: /aria2日志信息：/g' | sed 's/daemon.err aria2c.*]:/aria2错误信息：/g' "))
 
 	http.prepare_content("application/json")
 	http.write_json(data)
