@@ -12,7 +12,7 @@ if uci:get("aria2", "main", "Aria2_Pro") then
 else
  config_dir=uci:get("aria2", "main", "config_dir")or""
 end
-local config_file = "%s/aria2.conf" % config_dir
+local config_file = "%s/aria2.conf.main" % config_dir
 local session_file = "%s/aria2.session" % config_dir
 local a = "/etc/config/aria2" % config_dir
 
