@@ -105,7 +105,7 @@ e.password=true
 e=t:taboption("rpc",Value,"rpc_secret",translate("RPC token"))
 e:depends("rpc_auth_method","token")
 e.template="aria2/value_with_btn"
-e.btntext=translate("Generate Randomly")
+e.btntext=translate("generate randomly")
 e.btnclick="randomToken();"
 if a.https then
 e=t:taboption("rpc",Flag,"rpc_secure",translate("RPC secure"),
