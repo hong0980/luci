@@ -852,7 +852,9 @@ msgid "Aria2 Pro file"
 msgstr "扩展保存目录"
 
 msgid "Use the configuration scheme of p3terx to realize the enhancement and expansion of aria2 function."
-msgstr "使用P3TERX的配置方案实现Aria2的增强和扩展。"
+msgstr ""
+"使用P3TERX的配置方案实现Aria2的增强和扩展。<br/"
+"默认放置在(包括系统配置)<code>/usr/share/aria2下。</code>"
 
 msgid "generate randomly"
 msgstr "随机生成"
