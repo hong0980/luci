@@ -265,7 +265,7 @@ msgstr "信息"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:33
 msgid "Installed web interface:"
-msgstr "已安装的 WEB 界面："
+msgstr "已安装的WEB界面："
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:158
 msgid "Json-RPC URL"
@@ -705,11 +705,11 @@ msgstr "停止超时时间"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:48
 msgid "The Aria2 service is not running."
-msgstr "Aria2 服务未运行"
+msgstr "Aria2未运行"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:47
 msgid "The Aria2 service is running."
-msgstr "Aria2 服务正在运行"
+msgstr "Aria2运行中"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:74
 msgid "The directory to store the config file, session file and DHT file."
