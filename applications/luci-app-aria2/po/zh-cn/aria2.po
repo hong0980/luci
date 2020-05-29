@@ -858,6 +858,6 @@ msgstr "随机生成"
 msgid "The webui port defaults to 6800."
 msgstr "WebUI端口默认6800。"
 
-msgid "After enabling, the original system configuration is in this directory."
-msgstr "启用后，将合并原来系统配置目录。"
+msgid "When enabled, the original system configuration directory will be merged."
+msgstr "启用后，系统配置文件的目录合并此处。"
 
