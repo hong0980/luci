@@ -381,7 +381,7 @@ e:value("none",translate("None"))
 e:value("prealloc",translate("prealloc"))
 e:value("trunc",translate("trunc"))
 e:value("falloc",translate("falloc"))
-e.default="prealloc"
+e.default="falloc"
 e=t:taboption("advance",Flag,"force_save",translate("Force save"),
 translate("Save download to session file even if the download is completed or removed."
 .." This option also saves control file in that situations. This may be useful to save"
