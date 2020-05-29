@@ -58,7 +58,7 @@ end
 e=t:taboption("basic",Value,"config_dir",translate("Config file directory"),
 translate("The directory to store the config file, session file and DHT file."))
 e.placeholder="/var/etc/aria2"
-e=t:taboption("basic",Flag,"enable_Aria2_Pro",translate("Enable Aria2 Pro"))
+e=t:taboption("basic",Flag,"enable_Aria2_Pro",translate("Enable Aria2 Pro"),translate("When enabled, the original system configuration directory will be merged."))
 e.rmempty=false
 e=t:taboption("basic",Value,"Aria2_Pro",translate("Aria2 Pro file"),
 translate("Use the configuration scheme of p3terx to realize the enhancement and expansion of aria2 function."))
@@ -90,7 +90,7 @@ translate("Pause downloads created as a result of metadata download."))
 e.enabled="true"
 e.disabled="false"
 e.default="false"
-e=t:taboption("rpc",Value,"rpc_listen_port",translate("RPC port"))
+e=t:taboption("rpc",Value,"rpc_listen_port",translate("RPC port"),translate("The webui port defaults to 6800."))
 e.datatype="range(1024,65535)"
 e.placeholder="6800"
 e=t:taboption("rpc",ListValue,"rpc_auth_method",translate("RPC authentication method"))
