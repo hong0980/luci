@@ -58,11 +58,11 @@ end
 e=t:taboption("basic",Value,"config_dir",translate("Config file directory"),
 translate("The directory to store the config file, session file and DHT file."))
 e.placeholder="/var/etc/aria2"
-e=t:taboption("basic",Flag,"enable_Aria2_Pro",translate("Enable Aria2 Pro"),translate("When enabled, the original system configuration directory will be merged."))
+e=t:taboption("basic",Flag,"enable_Pro",translate("Enable Aria2 Pro"),translate("When enabled, the original system configuration directory will be merged."))
 e.rmempty=false
-e=t:taboption("basic",Value,"Aria2_Pro",translate("Aria2 Pro file"),
+e=t:taboption("basic",Value,"Pro",translate("Aria2 Pro file"),
 translate("Use the configuration scheme of p3terx to realize the enhancement and expansion of aria2 function."))
-e:depends("enable_Aria2_Pro","1")
+e:depends("enable_Pro","1")
 e.default="/usr/share/aria2"
 e=t:taboption("basic",Flag,"enable_logging",translate("Enable logging"))
 e.rmempty=false
