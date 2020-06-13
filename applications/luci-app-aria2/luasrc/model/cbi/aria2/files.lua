@@ -2,8 +2,8 @@ local t,a,e
 local n=require"nixio.fs"
 local o=require"luci.util"
 local i=require"luci.model.uci".cursor()
-if i:get("aria2","main","Aria2_Pro")then
-config_dir=i:get("aria2","main","Aria2_Pro")or""
+if i:get("aria2","main","Pro")then
+config_dir=i:get("aria2","main","Pro")or""
 else
 config_dir=i:get("aria2","main","config_dir")or""
 end
